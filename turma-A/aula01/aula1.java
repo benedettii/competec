@@ -78,5 +78,8 @@
             // ------------------------------------------------------------------------------------------------
             //                                   ex6;
             // ------------------------------------------------------------------------------------------------
-            Scanner booleann = new Scanner (System.in);
-            boolean guarda = booleann.next
+            // Scanner booleann = new Scanner (System.in);
+            // boolean guarda = booleann.next
+            
+        }
+    }
