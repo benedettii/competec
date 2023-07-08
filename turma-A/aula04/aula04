@@ -1,0 +1,39 @@
+import java.util.Scanner;
+
+public class aula04 {
+public static void main(String[] args) {
+    Scanner scanner = new Scanner(System.in);
+
+    System.out.println("Digite o tamanho do Vetor:")
+    int tamanho = scanner.nextInt();
+
+    int [] vetor = new int[tamanho];
+
+    for (int numero = 0; i < tamanho; i++) {
+        System.out.println ("Digite um valor inteiro e menor que o tamanho:")
+        vetor[numero] = scanner.nextInt();
+
+        // o numero digitado nao pode ser maior que o tamanho do vetor;
+    }
+
+    int valormaior = [vetor0];
+    int valormenor = [vetor0];
+
+    for (int numero = 1; numero < tamanho; i++ ) {
+        //criamos então um for para ele fazer a repetição para descobrir os numeros menores;
+        if (vetor[numero] > valormaior) {
+            valormaior = vetor[numero]; 
+        }
+
+        if (vetor[numero] < valormenor) {
+            valormenor = vetor[numero];
+        }
+       
+    }
+
+    System.out.println ("O maior é:" + valormaior);
+    System.out.println ("O menor é:" + valormenor);
+
+    scanner.close()
+}
+}
